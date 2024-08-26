@@ -1,0 +1,77 @@
+{
+    "dashboardData": [
+        {
+            "id": 1,
+            "type":"CSPM",
+            "categoryName": "CSPM Executive Dashboard",
+            "data": [
+                {
+                    "id": 1,
+                    "title": "Cloud Accounts",
+                    "labels": [
+                        {
+                            "name": "Not Connected",
+                            "color": "#E1EBFF",
+                            "value": 2
+                        },
+                        {
+                            "name": "Connected",
+                            "color": "#5578FF",
+                            "value": 2
+                        }
+                      
+                    ],
+                    "isShown":true
+                },
+                {
+                    "id": 2,
+                    "title": "Cloud Account Risk Assessment",
+                    "labels": [
+                        {
+                            "name": "Failed",
+                            "color": "#B9140F",
+                            "value": 1685
+                        },
+                        {
+                            "name": "Warning",
+                            "color": "#FAD732",
+                            "value": 681
+                        },
+                        {
+                            "name": "Not Available",
+                            "color": "#CBD0DD",
+                            "value": 36
+                        },
+                        {
+                            "name": "Passed",
+                            "color": "#19A55A",
+                            "value": 7253
+                        }
+                    ],
+                    "isShown":false
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "type":"CWPP",
+            "categoryName": "CWPP Dashboard",
+            "data": 
+            [
+                {
+                    "id":1,
+                    "title":"Top 5 Namespace Specific Alerts",
+                    "labels":[],
+                    "isShown":true
+                },
+                {
+                    "id":2,
+                    "title":"Workload Alerts",
+                    "labels":[],
+                    "isShown":true
+                }
+            ]
+        }
+    ]
+}
+
